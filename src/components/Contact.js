@@ -12,6 +12,7 @@ const Contact = () => {
 
         <div className='pt-16 text-3xl'>
            <h1>projects:</h1>
+           <h2>Coming soon</h2>
         </div>
         </div>
         
