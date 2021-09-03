@@ -6,10 +6,11 @@ const Header = () => {
     return (
       <div className='lg:flex justify-between md:flex justify-between bg-white'>
           <div className='px-16 text-black'>
-             <h3 className='text-3xl   font-bold pt-64'>Hello.</h3>
-             <h1 className='text-4xl md:text-3xl lg:text-6xl font-bold'> I'm <span className='text-black'>Johnson.</span></h1>
-             <h2 className='text-3xl md:text-2xl lg;text-4xl font-bold'> &nbsp;<span class="title">Web Developer</span></h2> 
-
+            <div className='text-black text-opacity-75'>
+              <h3 className='text-3xl   font-bold pt-64'>Hello.</h3>
+              <h1 className='text-4xl md:text-3xl lg:text-6xl font-bold'> I'm <span className=''>Johnson.</span></h1>
+              <h2 className='text-3xl md:text-2xl lg;text-4xl font-bold'> &nbsp;<span class="title">Web Developer</span></h2> 
+            </div>
          
             <nav className='pt-10'>
                <ul className='flex items-center'>
