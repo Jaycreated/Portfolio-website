@@ -10,8 +10,9 @@ const Navbar = () => {
         <div className='logo'>
         <h3>&lt;/<span className='text-2xl font-bold text-black'>JAY</span>&gt;</h3>
         </div>
-        
-             <Navigation />
+          <div className='hidden md:flex'>
+            <Navigation />
+          </div>
 
             <div className='md:hidden'>
             <Mobilenav />

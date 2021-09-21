@@ -15,7 +15,7 @@ const Header = () => {
             <nav className='pt-10'>
                <ul className='flex items-center'>
                  <li><a href='#get resume' className='rounded bg-black hover:bg-black text-white py-2 px-2 w-full'>Resume</a></li>
-                 <li className='mx-10 rounded bg-black py-2 px-2 hover:bg-black text-white py-2 px-2 animate-bounce w-full'><a href='#Hire me'>Hire me</a></li>
+                 <li className='mx-10 rounded bg-black py-2 px-2 hover:bg-black text-white py-2 px-2 animate-bounce w-full'><a href='mailto:Jaycreatedit@gmail.com'>Hire me</a></li>
                </ul>
             </nav>
          
