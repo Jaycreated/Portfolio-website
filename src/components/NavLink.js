@@ -5,7 +5,7 @@ const NavLink = () => {
     return (
         <div>
         <div className=''>
-        <ul className='sm:flex-colummn md:flex items-center'>
+        <ul className='md:flex items-center'>
          <Link to='/'>
            <li className='mx-10 py-2 px-2 py-2 px-2'>Home</li>
          </Link>

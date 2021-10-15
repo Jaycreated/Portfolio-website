@@ -4,7 +4,7 @@ import NavLink from './NavLink'
 
 const Navigation = () => {
     return (
-      <div className=''>
+      <div className='hidden md:flex'>
          
        <NavLink />
         
