@@ -9,7 +9,7 @@ const NavLink = () => {
          <Link to='/'>
            <li className='mx-10 py-2 px-2 py-2 px-2'>Home</li>
          </Link>
-         <Link to='/Contact'>
+         <Link to='/About'>
            <li className='mx-10 py-2 px-2 py-2 px-2'>About</li>
          </Link>
           

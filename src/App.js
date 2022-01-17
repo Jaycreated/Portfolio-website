@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import React from 'react';
 //import About from './components/About';
-import Contact from './components/Contact';
+import About from './components/About';
 import Footer from './components/Footer';
 import Home from './components/Home'
 //import Main from './components/Main';
@@ -17,7 +17,7 @@ const App = () => {
                     <Route path='/'/>
                 </Switch>
                 <Home />
-                <Contact />
+                <About />
                 <Footer />
                 <Navigation />
             </div>

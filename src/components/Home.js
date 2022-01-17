@@ -1,15 +1,16 @@
 import React from 'react'
-import profile from '../Assets/guy.jpeg'
+//import profile from '../Assets/guy.jpeg'
 //import {FaSearch} from 'react-icons/fa'
 
-const Header = () => {
+const Home = () => {
     return (
-      <div className='lg:flex justify-between md:flex justify-between bg-white'>
+        <section className={Home}>
+      <div className='lg:flex justify-between md:flex justify-between bg-'>
           <div className='px-16 text-black'>
             <div className='text-black text-opacity-75'>
               <h3 className='text-3xl   font-bold pt-64'>Hello.</h3>
               <h1 className='text-4xl md:text-3xl lg:text-6xl font-bold'> I'm <span className=''>Johnson.</span></h1>
-              <h2 className='text-3xl md:text-2xl lg;text-4xl font-bold'> &nbsp;<span class="title">Web Developer</span></h2> 
+              <h2 className='text-3xl md:text-2xl lg;text-4xl font-bold'> &nbsp;<span className="title">Web Developer</span></h2>
             </div>
          
             <nav className='pt-10'>
@@ -22,11 +23,11 @@ const Header = () => {
             </nav>
          
       </div>
-            <div className='md:py-32'>
-                 <img className=' w-full' src={profile} alt='programmer illustration'></img>
-            </div> 
-      </div>  
+
+      </div>
+        </section>
+
     )
 };
 
-export default Header
+export default Home

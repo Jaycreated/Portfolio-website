@@ -1,4 +1,4 @@
-*{
+* {
   scroll-behavior: smooth;
 }
 
@@ -16,3 +16,12 @@ body {
 
 }
 
+.Header {
+  height: 100vh;
+  background: url("https://pixabay.com/photos/laptop-table-technology-office-2434393/") no-repeat center/cover;
+}
+
+.Header .overlay {
+  height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+}
