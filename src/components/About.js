@@ -3,12 +3,17 @@ import React from 'react'
 
 const About = () => {
     return(
-        <div className='h-screen flex justify-between bg-white text-black px-32'>
-        
-           <div className=' px-16  lg:px-16'>
-            <h1 className='text-6xl font-bold'>About Me.</h1>
-           </div>
-            
+        <div className='bg-gray-100  pt-8 px-8 h-screen'>
+            <h2 className='text-3xl'>About:</h2>
+            <p className='text-2xl'>.</p>
+
+            <h2 className='text-3xl pt-8'>Tech Stack: <span className='text-2xl'>Html | css | javascript | React | Next.js | nodejs | Tailwindcss | firebase | Git | Json </span> </h2>
+
+
+            <div className='pt-16 text-3xl'>
+                <h1>projects:</h1>
+                <h2></h2>
+            </div>
         </div>
     )
 }

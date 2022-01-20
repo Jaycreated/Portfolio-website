@@ -5,11 +5,10 @@ import React from 'react'
 const Home = () => {
     return (
         <section className={Home}>
-      <div className='lg:flex justify-between md:flex justify-between bg-'>
+      <div className='lg:flex justify-between md:flex justify-between bg- h-96'>
           <div className='px-16 text-black'>
-            <div className='text-black text-opacity-75'>
-              <h3 className='text-3xl   font-bold pt-64'>Hello.</h3>
-              <h1 className='text-4xl md:text-3xl lg:text-6xl font-bold'> I'm <span className=''>Johnson.</span></h1>
+            <div className='text-black text-opacity-75 pt-32'>
+              <h1 className='text-4xl md:text-3xl lg:text-6xl font-bold'>Johnson.</h1>
               <h2 className='text-3xl md:text-2xl lg;text-4xl font-bold'> &nbsp;<span className="title">Web Developer</span></h2>
             </div>
          
