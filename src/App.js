@@ -1,28 +1,12 @@
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import React from 'react';
-//import About from './components/About';
-import About from './components/About';
-import Footer from './components/Footer';
-import Home from './components/Home'
-//import Main from './components/Main';
-import Navigation from './components/Navigation';
-import Navbar from './components/Navbar';
+import Card from './components/Card'
 
 const App = () => {
     return (
-        <Router>
-            <div className=''>
-                <Navbar/>
-                <Switch>
-                    <Route path='/'/>
-                </Switch>
-                <Home />
-                <About />
-                <Footer />
-                <Navigation />
-            </div>
-        </Router>
-    );
+        <div className='min-h-screen py-10 px-3 sm: px-5 bg-gray-100 '>
+           <Card />
+        </div>
+        );
 }
 
 export default App;
