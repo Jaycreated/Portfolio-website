@@ -9,7 +9,7 @@ const About = () => {
                 Hello 👋🏾
             </p>
             <p className='text-base sm:text-xl text-center text-gray-600 leading-relaxed mt-4'>
-                i'm a software engineer with passion in building in the digital space.
+                Johnson John is an ardent Software Engineer with good work Ethics and a great communication skill. He loves the concept of building web applications, he loves solving challenging problems and advancing his skills.
             </p>
 
             <ScrollIntoView selector=''>
