@@ -14,6 +14,7 @@ const About = () => {
 
                 <div className='mx-auto p-10'>
                     <p className='text-2xl text-black md:text-4xl font-bold text-center'>Tech Stack:</p>
+                    <p className='text-base sm:text-xl text-center text-gray-600 leading-relaxed mt-4'>Html | css | Javascript | Typescript | React js | Node js | Mongo db | Tailwind css |</p>
                 </div>
         </div>
     )
