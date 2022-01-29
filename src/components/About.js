@@ -12,11 +12,9 @@ const About = () => {
                 Johnson John is an ardent Software Engineer with good work Ethics and a great communication skill. He loves the concept of building web applications, he loves solving challenging problems and advancing his skills.
             </p>
 
-            <ScrollIntoView selector=''>
-                <div className='mx-auto p-20'>
-                    <FaChevronDown className='animate-bounce mx-auto text-3xl text-blue-500' />
+                <div className='mx-auto p-10'>
+                    <p className='text-2xl text-black md:text-4xl font-bold text-center'>Tech Stack:</p>
                 </div>
-            </ScrollIntoView>
         </div>
     )
 }
