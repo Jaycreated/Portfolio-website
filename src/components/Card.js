@@ -5,7 +5,7 @@ import {FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 const Card = () => {
     return (
         <div className = 'w-full'>
-           <div className='flex flex-col justify-center max-w-xs mx-auto bg-whtie shadow-xl rounded-xl p-5 '>
+           <div className='flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5'>
                <div className=''>
                    <img className= 'w-32 mx-auto shadow-xl rounded-full drop-shadow-sm' src={profile} alt = 'profile' />
                </div>
@@ -23,7 +23,7 @@ const Card = () => {
                            <span className='sr-only'>Github </span>
                        </a>
 
-                       <a className='text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-800 hover:bg-blue-800 rounded-full  hover:text-white transition-colors duration-300' href='https://twitter.com/home'>
+                       <a className='text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-800 hover:bg-blue-800 rounded-full  hover:text-white transition-colors duration-300' href='https://twitter.com/Jaycreated_'>
                            <FaTwitter />
                            <span className='sr-only'>Github </span>
                        </a>

@@ -8,9 +8,16 @@ import ContactMe from "./components/Contact";
 const App = () => {
     return (
         <div className='min-h-screen py-10 px-3 sm: px-5 bg-gray-100 '>
-           <Card />
-            <About />
-            <Skills />
+
+            <div className='flex pb-10 border-b-2'>
+                <Card />
+                <About />
+
+            </div>
+
+            <div className='mt-16'>
+                <Skills />
+            </div>
             <ContactMe />
             <Footer />
         </div>
