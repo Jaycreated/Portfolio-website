@@ -1,25 +1,21 @@
 import React from 'react';
 import Card from './components/Card';
-import About from "./components/About";
+import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
-import ContactMe from "./components/Contact";
+import Contact from "./components/Contact";
+import Header from './components/Header';
 
 const App = () => {
     return (
-        <div className='min-h-screen py-10 px-3 sm: px-5 bg-gray-100 '>
-
-            <div className='flex pb-10 border-b-2'>
-                <Card />
-                <About />
-
-            </div>
-
-            <div className='mt-16'>
+            <div>
+            <Header />
+            <div className='mx-64'>
+                <Body />
                 <Skills />
+                <Contact />
+                <Footer />
             </div>
-            <ContactMe />
-            <Footer />
         </div>
         );
 }

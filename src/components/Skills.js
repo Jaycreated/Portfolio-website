@@ -5,10 +5,14 @@ import Profile from  '../Assets/Calculate.png'
 
 const Skills = () => {
     return (
-        <div className='grid gap-4 grid-cols-3 grid-rows-3'>
-                       <div className=''>
+        <>
+            <p className='text-center font-bold mt-16 pt-6 border-t-2'>PORTFOLIO</p>
+
+        <div className='grid gap-6 grid-cols-3 grid-rows-3 mt-8'>
+
+                       <a className='rounded-md' href=''>
                            <img className='' src={Profile} alt='calculate' />
-                       </div>
+                       </a>
 
                     <div className=''>
                         <img className='' src={Profile} alt='calculate' />
@@ -30,6 +34,11 @@ const Skills = () => {
                         <img className='' src={Profile} alt='calculate' />
                     </div>
         </div>
+
+        <div>
+            <p>Hire me</p>
+        </div>
+        </>
     );
 };
 
