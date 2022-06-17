@@ -15,49 +15,32 @@ const Body = () => {
         <div className='pt-10 flex'>
            
             <div className = ''>
-                <img className= 'w-48 shadow-2xl rounded-full' src={profile} alt = 'profile' />
+                <img className= 'md:w-48 w-full shadow-2xl rounded-full' src={profile} alt = 'profile' />
             </div>
       
         
 
-            <div className='ml-16 text-center w-full'>
-            <span className='font-bold text-xl'>JOHNSON JOHN</span>
-        
+            <div className='md:ml-16 mt-8 pt-10  w-full mx-2'>
+
+         <div className='mb-4 text-center'>
+            <p className='font-bold md:text-xl'>JOHNSON JOHN</p>
+        </div>
+
+            <div className=''>
             <button className='border w-full rounded-lg font-bold p-2'>Resume</button>
-
-            <div className='flex justify-between mt-4'>
-        
-            <span className='rounded-full'>
-                <DiMongodb
-                className='w-10 h-10 text-green-800'
-                />
-            </span>
-
-            <span className='rounded-full ml-2'>
-                <SiExpress
-                className='w-10 h-10'
-                />
-             </span>
-
-             <span className='rounded-full ml-2'>
-                <FaReact
-                className='w-10 h-10 text-blue-800'
-                />
-            </span>
-
-            <span className='rounded-full ml-2'>
-                <FaNode
-                className='w-10 h-10 text-green-800'
-                />
-            </span>
             </div>
+           
             </div>
         </div>
 
-        <div>
-        <p className='text-base text-lg leading-relaxed mt-16'>
-        Software Engineer with good work Ethics and a great communication skill. He loves the concept of building web applications, he loves solving challenging problems and advancing his skills.
-        </p>
+        <div className='mt-6'>
+        <p className='font-DancingScript font-bold text-2xl'> Software Engineer </p>
+        <div className='font-bold m-6'>
+            <p>Good Work Ethics</p>
+            <p>Great Communication Skills</p>
+            <p>Loves the concept of building web applications, loves solving challenging problems and advancing his skills.</p>
+        
+        </div>
         </div>
 
         </>

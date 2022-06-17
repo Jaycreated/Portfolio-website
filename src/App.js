@@ -9,7 +9,7 @@ const App = () => {
     return (
             <div>
             <Header />
-            <div className='md:mx-64 mx-6'>
+            <div className='md:mx-64 mx-2'>
                 <Body />
                 <Skills />
                 <Contact />

@@ -10,29 +10,29 @@ const Skills = () => {
 
         <div className='grid md:gap-6 gap-2 grid-cols-3 mt-8'>
 
-                       <a className='rounded-md' href=''>
+                       <a className='rounded-lg' href=''>
                            <img className='' src={Profile} alt='calculate' />
                        </a>
 
-                    <div className=''>
-                        <img className='' src={Profile} alt='calculate' />
-                    </div>
+                       <a className='rounded-md' href=''>
+                       <img className='' src={Profile} alt='calculate' />
+                         </a>
 
-                    <div className=''>
-                        <img className='' src={Profile} alt='calculate' />
-                    </div>
+                         <a className='rounded-md' href=''>
+                         <img className='' src={Profile} alt='calculate' />
+                     </a>
 
-                    <div className=''>
-                        <img className='' src={Profile} alt='calculate' />
-                    </div>
+                     <a className='rounded-md' href=''>
+                     <img className='' src={Profile} alt='calculate' />
+                 </a>
 
-                    <div className=''>
-                        <img className='' src={Profile} alt='calculate' />
-                    </div>
+                 <a className='rounded-md' href=''>
+                 <img className='' src={Profile} alt='calculate' />
+             </a>
 
-                    <div className=''>
-                        <img className='' src={Profile} alt='calculate' />
-                    </div>
+             <a className='rounded-md' href=''>
+             <img className='' src={Profile} alt='calculate' />
+         </a>
         </div>
         </>
     );
