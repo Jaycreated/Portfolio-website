@@ -27,7 +27,10 @@ const Body = () => {
         </div>
 
             <div className=''>
+
+            <a href="https://docs.google.com/document/d/1DukFofN4vDFJIrhGHqKRfVVRUoNPqRTNKVHqcqhllnw/edit?usp=sharing">
             <button className='border w-full rounded-lg font-bold p-2'>Resume</button>
+            </a>
             </div>
            
             </div>
