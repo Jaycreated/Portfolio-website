@@ -12,110 +12,52 @@ const Body = () => {
 
         <>
         
-        <div className='md:pt-10 pt-4 flex'>
+        <div className='pt-10 flex'>
+           
+            <div className = ''>
+                <img className= 'w-48 shadow-2xl rounded-full' src={profile} alt = 'profile' />
+            </div>
+      
+        
 
+            <div className='ml-16 text-center w-full'>
+            <span className='font-bold text-xl'>JOHNSON JOHN</span>
         
+            <button className='border w-full rounded-lg font-bold p-2'>Resume</button>
+
+            <div className='flex justify-between mt-4'>
         
-        <div className = 'w-32 md:w-full'>
-            <img className= 'md:w-48 w-32 shadow-2xl rounded-full' src={profile} alt = 'profile' />
+            <span className='rounded-full'>
+                <DiMongodb
+                className='w-10 h-10 text-green-800'
+                />
+            </span>
+
+            <span className='rounded-full ml-2'>
+                <SiExpress
+                className='w-10 h-10'
+                />
+             </span>
+
+             <span className='rounded-full ml-2'>
+                <FaReact
+                className='w-10 h-10 text-blue-800'
+                />
+            </span>
+
+            <span className='rounded-full ml-2'>
+                <FaNode
+                className='w-10 h-10 text-green-800'
+                />
+            </span>
+            </div>
+            </div>
         </div>
 
-            <div className='sm:ml-16'>
-
-            <div className='md:flex'>
-            <div className='text-2xl text-black text-4xl sm:mb-4'>
-                <p>JOHNSON JOHN</p>
-            </div>
-                <div className='md:ml-16'>
-                  <button className='border p-2 rounded-lg sm:w-full font-bold'>RESUME</button>
-                </div>
-            </div>
-            
-            <div className='sm:hidden md:block'>
-                <p className='text-base sm:text-xl text-gray-600 leading-relaxed md:mt-4 mt-16'>
-                    Software Engineer with good work Ethics and a great communication skill. He loves the concept of building web applications, he loves solving challenging problems and advancing his skills.
-                </p>
-
-
-                <div className='mt-16'>
-                <p className='text-2xl text-black md:text-4xl'>Tech Stack:</p>
-                <div className='flex justify-between mt-4'>
-        
-                    <span className='rounded-full'>
-                        <p>Mongodb</p>
-                        <DiMongodb
-                        className='w-16 h-16 text-green-800'
-                        />
-                    </span>
-        
-                    <span className='rounded-full'>
-                    <p>Express js</p>
-                        <SiExpress
-                        className='w-16 h-16'
-                        />
-                     </span>
-        
-                     <span className='rounded-full'>
-                     <p>React js</p>
-                        <FaReact
-                        className='w-16 h-16 text-blue-800'
-                        />
-                    </span>
-        
-                    <span className='rounded-full'>
-                    <p>Node.js</p>
-                        <FaNode
-                        className='w-16 h-16 text-green-800'
-                        />
-                    </span>
-                    </div>
-        
-                </div>
-            </div>
-                </div>
-        </div>
-
-
-        <div className='md:hidden'>
-        <p className='text-base sm:text-xl text-gray-600 leading-relaxed md:mt-4 mt-16'>
-            Software Engineer with good work Ethics and a great communication skill. He loves the concept of building web applications, he loves solving challenging problems and advancing his skills.
+        <div>
+        <p className='text-base text-lg leading-relaxed mt-16'>
+        Software Engineer with good work Ethics and a great communication skill. He loves the concept of building web applications, he loves solving challenging problems and advancing his skills.
         </p>
-
-       <div className='mt-4'>
-       <p className='text-2xl text-black text-4xl'>Tech Stack:</p>
-
-
-       <div className='flex justify-between mt-4 mx-10'>
-        
-       <span className='rounded-full'>
-           <p>Mongodb</p>
-           <DiMongodb
-           className='w-16 h-16 text-green-800'
-           />
-       </span>
-
-       <span className='rounded-full'>
-       <p>Express js</p>
-           <SiExpress
-           className='w-16 h-16'
-           />
-        </span>
-
-        <span className='rounded-full'>
-        <p>React js</p>
-           <FaReact
-           className='w-16 h-16 text-blue-800'
-           />
-       </span>
-
-       <span className='rounded-full'>
-       <p>Node.js</p>
-           <FaNode
-           className='w-16 h-16 text-green-800'
-           />
-       </span>
-       </div>
-       </div>
         </div>
 
         </>
