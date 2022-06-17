@@ -12,7 +12,7 @@ const Body = () => {
 
         <>
         
-        <div className='pt-10 flex'>
+        <div className='pt-10 flex md:mx-64 mx-2'>
            
             <div className = ''>
                 <img className= 'md:w-48 w-full shadow-2xl rounded-full' src={profile} alt = 'profile' />
@@ -33,7 +33,7 @@ const Body = () => {
             </div>
         </div>
 
-        <div className='mt-6'>
+        <div className='mt-6 md:mx-64 mx-2'>
         <p className='font-DancingScript font-bold text-2xl'> Software Engineer </p>
         <div className='font-bold m-6'>
             <p>Good Work Ethics</p>

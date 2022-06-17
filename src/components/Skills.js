@@ -8,30 +8,30 @@ const Skills = () => {
         <>
             <p className='text-center font-bold mt-16 pt-6 border-t-2'>PORTFOLIO</p>
 
-        <div className='grid md:gap-6 gap-2 grid-cols-3 mt-8'>
+        <div className='grid md:gap-6 gap-2 grid-cols-3 mt-8 '>
 
-                       <a className='rounded-lg' href=''>
-                           <img className='' src={Profile} alt='calculate' />
+                       <a className='rounded-lg h-32' href=''>
+                           <img className='h-full' src={Profile} alt='calculate' />
                        </a>
 
-                       <a className='rounded-md' href=''>
-                       <img className='' src={Profile} alt='calculate' />
+                       <a className='rounded-md h-32' href=''>
+                       <img className='h-full' src={Profile} alt='calculate' />
                          </a>
 
-                         <a className='rounded-md' href=''>
-                         <img className='' src={Profile} alt='calculate' />
+                         <a className='rounded-md h-32' href=''>
+                         <img className='h-full' src={Profile} alt='calculate' />
                      </a>
 
-                     <a className='rounded-md' href=''>
-                     <img className='' src={Profile} alt='calculate' />
+                     <a className='rounded-md h-32' href=''>
+                     <img className='h-full' src={Profile} alt='calculate' />
                  </a>
 
-                 <a className='rounded-md' href=''>
-                 <img className='' src={Profile} alt='calculate' />
+                 <a className='rounded-md h-32' href=''>
+                 <img className='h-full' src={Profile} alt='calculate' />
              </a>
 
-             <a className='rounded-md' href=''>
-             <img className='' src={Profile} alt='calculate' />
+             <a className='rounded-md h-32' href=''>
+             <img className='h-full' src={Profile} alt='calculate' />
          </a>
         </div>
         </>
