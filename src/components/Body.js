@@ -11,26 +11,28 @@ const Body = () => {
     return(
 
         <>
-        <div className='pt-10 flex'>
+        
+        <div className='md:pt-10 pt-4 flex'>
 
         
-
-        <div className = 'w-32 w-full'>
-            <img className= 'w-48 mx-auto shadow-2xl rounded-full' src={profile} alt = 'profile' />
+        
+        <div className = 'w-32 md:w-full'>
+            <img className= 'md:w-48 w-32 shadow-2xl rounded-full' src={profile} alt = 'profile' />
         </div>
 
-            <div className=''>
-            <div className='flex'>
+            <div className='sm:ml-16'>
 
-            <div className='text-2xl text-black text-4xl font-bold'>
+            <div className='md:flex'>
+            <div className='text-2xl text-black text-4xl sm:mb-4'>
                 <p>JOHNSON JOHN</p>
             </div>
-                <div className='ml-16'>
-                  <button className='border p-2 bg-black text-white rounded-lg'>RESUME</button>
+                <div className='md:ml-16'>
+                  <button className='border p-2 rounded-lg sm:w-full font-bold'>RESUME</button>
                 </div>
             </div>
-
-                <p className='text-base sm:text-xl text-gray-600 leading-relaxed mt-4'>
+            
+            <div className='sm:hidden md:block'>
+                <p className='text-base sm:text-xl text-gray-600 leading-relaxed md:mt-4 mt-16'>
                     Software Engineer with good work Ethics and a great communication skill. He loves the concept of building web applications, he loves solving challenging problems and advancing his skills.
                 </p>
 
@@ -66,10 +68,54 @@ const Body = () => {
                         className='w-16 h-16 text-green-800'
                         />
                     </span>
+                    </div>
         
                 </div>
             </div>
                 </div>
+        </div>
+
+
+        <div className='md:hidden'>
+        <p className='text-base sm:text-xl text-gray-600 leading-relaxed md:mt-4 mt-16'>
+            Software Engineer with good work Ethics and a great communication skill. He loves the concept of building web applications, he loves solving challenging problems and advancing his skills.
+        </p>
+
+       <div className='mt-4'>
+       <p className='text-2xl text-black text-4xl'>Tech Stack:</p>
+
+
+       <div className='flex justify-between mt-4 mx-10'>
+        
+       <span className='rounded-full'>
+           <p>Mongodb</p>
+           <DiMongodb
+           className='w-16 h-16 text-green-800'
+           />
+       </span>
+
+       <span className='rounded-full'>
+       <p>Express js</p>
+           <SiExpress
+           className='w-16 h-16'
+           />
+        </span>
+
+        <span className='rounded-full'>
+        <p>React js</p>
+           <FaReact
+           className='w-16 h-16 text-blue-800'
+           />
+       </span>
+
+       <span className='rounded-full'>
+       <p>Node.js</p>
+           <FaNode
+           className='w-16 h-16 text-green-800'
+           />
+       </span>
+       </div>
+       </div>
         </div>
 
         </>

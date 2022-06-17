@@ -4,7 +4,9 @@ import {FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 
 const Header = () => {
     return (
-        <div className='p-6 flex justify-between border-b-2 px-64'>
+
+        <div className=''>
+        <div className='p-6 flex justify-between border-b-2 md:px-64'>
 
             <div className="font">
                 <p>Jaycreated</p>
@@ -30,6 +32,7 @@ const Header = () => {
             </div>
         
         
+        </div>
         </div>
     )
 

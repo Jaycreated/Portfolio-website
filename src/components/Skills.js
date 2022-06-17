@@ -8,7 +8,7 @@ const Skills = () => {
         <>
             <p className='text-center font-bold mt-16 pt-6 border-t-2'>PORTFOLIO</p>
 
-        <div className='grid gap-6 grid-cols-3 grid-rows-3 mt-8'>
+        <div className='grid md:gap-6 sm:gap-2 grid-cols-3 mt-8'>
 
                        <a className='rounded-md' href=''>
                            <img className='' src={Profile} alt='calculate' />
@@ -33,10 +33,6 @@ const Skills = () => {
                     <div className=''>
                         <img className='' src={Profile} alt='calculate' />
                     </div>
-        </div>
-
-        <div>
-            <p>Hire me</p>
         </div>
         </>
     );

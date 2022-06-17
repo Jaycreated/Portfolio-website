@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from './components/Card';
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
@@ -10,7 +9,7 @@ const App = () => {
     return (
             <div>
             <Header />
-            <div className='mx-64'>
+            <div className='md:mx-64 mx-6'>
                 <Body />
                 <Skills />
                 <Contact />
