@@ -8,8 +8,8 @@ const Header = () => {
         <div className=''>
         <div className='p-6 flex justify-between border-b-2 md:px-64'>
 
-            <div className="font">
-                <p>Jaycreated</p>
+            <div className="">
+                <p className='font-DancingScript font-bold text-2xl'>Jaycreated</p>
             </div>
 
             <div>
