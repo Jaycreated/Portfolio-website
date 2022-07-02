@@ -1,10 +1,10 @@
 import React from 'react';
-import Profile from  '../Assets/Calculate.png'
 import locateip from '../Assets/locateip.png';
 import portfolio from '../Assets/portfolio.png';
 import checkref from '../Assets/checkref.png';
 import tech from '../Assets/tech.png';
-import wave from '../Assets/wave.png'
+import wave from '../Assets/wave.png';
+import vamoose from '../Assets/vamoose.png'
 //import {SiReact, SiTailwindcss, SiJavascript} from 'react-icons/si'
 //import {FaReact,} from 'react-icons/fa'
 
@@ -28,6 +28,10 @@ const Skills = () => {
                          <img className='h-full' src={checkref} alt='calculate' />
                      </a>
 
+                     <a className='rounded-md md:h-full h-32' href='https://calculatewithme.netlify.app/'>
+                     <img className='h-full' src={vamoose} alt='calculate' />
+                 </a>
+
                      <a className='rounded-md md:h-full h-32' href='http://jaycreated.me/'>
                      <img className='h-full' src={portfolio} alt='calculate' />
                  </a>
@@ -35,10 +39,6 @@ const Skills = () => {
                  <a className='rounded-md md:h-full h-32' href='https://locateip.netlify.app/'>
                  <img className='h-full' src={locateip} alt='locate ip' />
              </a>
-
-             <a className='rounded-md md:h-full h-32' href='https://calculatewithme.netlify.app/'>
-             <img className='h-full' src={Profile} alt='calculate' />
-         </a>
         </div>
         </>
     );
